@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+<body>
+<div class="container">
+  <header class="header"> 
+    <h1>devfinder</h1>
+    <div class="header__icon-section">
+    <p class="mode_text">DARK</p>
+    <img class="icon_mode" src="./assets/icon-moon.svg" alt="moon">
+  </div>
+  </header>
+
+  <div class="input__container">
+    <div>
+      <img class="icon_input" src="./assets/icon-search.svg" alt="search">
+    <input type="text" placeholder="Search GitHub username...">
+    </div>
+    <button class="btn">Search</button>
+  </div>
+
+  <div class="info__container">
+    <div class="avatar_container">
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="">
+    </div>
+    <div class="info">
+      <div class="info_header">
+        <div class="header_text_and_join_day">
+          <h1 class="info_header_text">The Octocat</h1>
+          <p class="join_day">Joined 25 Jan 2021</p>
+        </div>
+        
+        <a class="email" href="#">octocat@gmail.com</a>
+     
+      </div>
+
+
+      <div class="info_body">
+
+        <p class="info_header_bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit fugit i ?</p>
+        <!-- info body status -->
+        <div class="info_body_status">
+          <span class="info_body_status_repos">Repos <p class="repos">8</p></span>
+          <span class="info_body_status_follower">Followers <p class="follower">3938</p></span>
+          <span class="info_body_status_following">Following <p class="following">9</p></span>
+        </div>
+        <div class="info_body_area">
+          <div>
+            <img src="./assets/icon-location.svg" alt=""></img> 
+          <span class="location"> San Francisco</span>
+          </div>
+          <div>
+            <img src="./assets/icon-twitter.svg" alt="">
+           <span class="twitter">  Twitter</span>
+          </div>
+          <div>
+            <img src="./assets/icon-website.svg" alt=""> 
+          <span class="blog">   http://github.blog</span>
+          </div>
+          <div>
+            <img src="./assets/icon-company.svg" alt=""> 
+           <span class="github-url">  @github</span>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
